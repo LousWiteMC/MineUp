@@ -1,1 +1,45 @@
+################## MineUp Settings Config ################## 
+## Plugin Was Coded By LousWiteMC ##
+#Message When Player Upgraded Mine!
+Message-When-UpMine: "§aYour Mining Level Have Been Upgraded To {level}! Test It xD!"
 
+#Message When Player Upgrade Mine But Not Have Enough Money!
+Message-Not-Enough-Money: "§cYou don't have enough money to upgrading your Mining Level!"
+
+#Message When Player Upgrade Mine But Her/His Mining Level Is Max!
+Message-Max-Level: "§cYour Mining Level Is Max, You Can't Upgrade More Level!"
+
+#Popup When Player Mining, Earn Reward From Her/His Mining Level!
+#You can set it to false it you don't want to display popups!
+Popup-Add-Reward-When-Mine: true
+Popup: "§aYou Have Earned {mney}$ From Your Mining Level!"
+
+#Message when player1 use command to see level of player2, {name} but player2 doesn't exists.
+Message-No-Player: "§cPlayer with name {name} doesn't exists!"
+
+#Name Of The World Mine, Avoid Bug!
+#You can add levels by use:
+# - "Example1"
+# - "Example2"
+Name-World-To-Mine:  
+  - "DymanicSB"
+
+#Default Reward When Mining, Ex: When Player In Level 3, Mining Reward Will 100x3 = 300$
+Reward-Money-Default: 100
+
+#Default Required Money To Up Default, Ex: When Player In Level 2, Money Required Will 20000x2 = 40000$ To Up To Level 3!
+Money-To-Up-Default: 20000
+
+#Permission To Using Mining Skills, This Is Required!
+Permission-To-Use-Mining-Skills: "using.mining" 
+#FORM WHEN PLAYER HAS ENOUGH MONEY TO UPGRADE#
+Title-Form: "Mining System"
+Content: "Your money is enough to upgrade to level {nextlevel}\nDo You Want To Upgrade?\nNeeded Money: {needmoney}\nYour Money: {yourmoney}"
+Button1-Form: "No, I Don't"
+Button2-Form: "Yes, I Do!"
+#############################################
+#############################################
+#FORM WHEN PLAYER SEE OTHER PLAYER MINING LEVEL#
+Title2-Form: "Mining System"
+Content2: "{name}'s Level: {level}\nHave A Good Day!"
+#############
