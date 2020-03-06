@@ -1,0 +1,12 @@
+name: MineUp
+version: 0.2
+main: LousWiteMC\MineUp\MineUp
+api: [3.0.0, 3.11.0, 4.0.0]
+author: LousWiteMC
+commands:
+ mineup:
+  description: Up Your Mining Level!
+ seemlv:
+  description: See Other Player's Mining Level!
+ topmlv:
+  description: Top Player's Mining Level!
